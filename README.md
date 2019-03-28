@@ -1,2 +1,3 @@
-# nra_labovi
-Napredne računalne arhitekture
+# Vježba 1
+
+Primer jednostavnog multithreading-a.
