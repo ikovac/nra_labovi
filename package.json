@@ -1,0 +1,23 @@
+{
+  "name": "aritmetickasredina",
+  "version": "1.0.0",
+  "description": "Aritmeticka sredina izracunata s js i cpp. Usporedba vremena izvršavanja",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "start": "node index.js",
+    "build:dev": "node-gyp -j 16 build --debug",
+    "build": "node-gyp -j 16 build",
+    "rebuild:dev": "node-gyp -j 16 rebuild --debug",
+    "rebuild": "node-gyp -j 16 rebuild",
+    "clean": "node-gyp clean"
+  },
+  "author": "Ivo Kovačević",
+  "license": "ISC",
+  "dependencies": {
+    "node-addon-api": "^1.6.3"
+  },
+  "devDependencies": {
+    "node-gyp": "^3.8.0"
+  }
+}
