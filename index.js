@@ -46,3 +46,10 @@ console.time("CPP sequentially access");
 customAddon.seqAccess();
 console.timeEnd("CPP sequentially access");
 
+/**
+ * JS rand access: 3.119ms
+ * JS sequentially access: 1.194ms
+ * CPP rand access: 0.460ms
+ * CPP sequentially access: 0.311ms
+ */
+
